@@ -14,8 +14,10 @@ export function Pricing() {
             One twin costs less than one focus group participant
           </h2>
           <p className="mt-4 text-muted-foreground leading-relaxed">
-            A single focus group runs $5,000–$15,000 and gives you two hours of feedback from 8 people. 
-            A twin is available forever, responds in seconds, and can be configured to any context.
+            A single focus group runs $5,000–$15,000 and gives you two hours of
+            feedback from 8 people. Our personas are available 24/7, respond in
+            seconds, and give you perspectives that actually match your target
+            audience—without the cost, scheduling, or brand risk.
           </p>
         </div>
 
@@ -23,32 +25,46 @@ export function Pricing() {
           <div className="p-8 rounded-lg border border-border bg-card flex flex-col">
             <div>
               <h3 className="text-lg font-medium">Starter</h3>
-              <p className="mt-2 text-muted-foreground text-sm">For testing the waters</p>
+              <p className="mt-2 text-muted-foreground text-sm">
+                For testing the waters
+              </p>
               <div className="mt-6">
-                <span className="text-4xl font-medium">$99</span>
+                <span className="text-4xl font-medium">$50</span>
                 <span className="text-muted-foreground">/month</span>
               </div>
             </div>
             <ul className="mt-8 space-y-3 flex-1">
               <li className="flex items-start gap-3 text-sm">
                 <Check className="w-4 h-4 shrink-0 mt-0.5" />
-                <span>3 custom twins</span>
+                <span>
+                  <strong>3 curated personas</strong>
+                </span>
               </li>
               <li className="flex items-start gap-3 text-sm">
                 <Check className="w-4 h-4 shrink-0 mt-0.5" />
-                <span>500 conversations/month</span>
+                <span>Unlimited conversations</span>
               </li>
               <li className="flex items-start gap-3 text-sm">
                 <Check className="w-4 h-4 shrink-0 mt-0.5" />
-                <span>Basic contextual states</span>
+                <span>Connect to Slack + Email</span>
               </li>
               <li className="flex items-start gap-3 text-sm">
                 <Check className="w-4 h-4 shrink-0 mt-0.5" />
                 <span>Export conversation logs</span>
               </li>
+              <li className="flex items-start gap-3 text-sm">
+                <Check className="w-4 h-4 shrink-0 mt-0.5" />
+                <span>Community support</span>
+              </li>
             </ul>
-            <Button variant="outline" asChild className="mt-8 h-12 bg-transparent">
-              <Link href="#">Get started</Link>
+            <Button
+              variant="outline"
+              asChild
+              className="mt-8 h-12 bg-transparent"
+            >
+              <Link href={process.env.NEXT_PUBLIC_STRIPE_STARTER_LINK || "#"}>
+                Start getting feedback
+              </Link>
             </Button>
           </div>
 
@@ -58,24 +74,28 @@ export function Pricing() {
             </div>
             <div>
               <h3 className="text-lg font-medium">Team</h3>
-              <p className="mt-2 text-muted-foreground text-sm">For product and marketing teams</p>
+              <p className="mt-2 text-muted-foreground text-sm">
+                For product and marketing teams
+              </p>
               <div className="mt-6">
-                <span className="text-4xl font-medium">$399</span>
+                <span className="text-4xl font-medium">$300</span>
                 <span className="text-muted-foreground">/month</span>
               </div>
             </div>
             <ul className="mt-8 space-y-3 flex-1">
               <li className="flex items-start gap-3 text-sm">
                 <Check className="w-4 h-4 shrink-0 mt-0.5" />
-                <span>15 custom twins</span>
+                <span>
+                  <strong>50+ curated personas</strong>
+                </span>
               </li>
               <li className="flex items-start gap-3 text-sm">
                 <Check className="w-4 h-4 shrink-0 mt-0.5" />
-                <span>3,000 conversations/month</span>
+                <span>Full roster access</span>
               </li>
               <li className="flex items-start gap-3 text-sm">
                 <Check className="w-4 h-4 shrink-0 mt-0.5" />
-                <span>Advanced contextual states</span>
+                <span>Unlimited conversations</span>
               </li>
               <li className="flex items-start gap-3 text-sm">
                 <Check className="w-4 h-4 shrink-0 mt-0.5" />
@@ -83,7 +103,11 @@ export function Pricing() {
               </li>
               <li className="flex items-start gap-3 text-sm">
                 <Check className="w-4 h-4 shrink-0 mt-0.5" />
-                <span>Pre-built industry archetypes</span>
+                <span>Custom persona requests</span>
+              </li>
+              <li className="flex items-start gap-3 text-sm">
+                <Check className="w-4 h-4 shrink-0 mt-0.5" />
+                <span>Priority support</span>
               </li>
               <li className="flex items-start gap-3 text-sm">
                 <Check className="w-4 h-4 shrink-0 mt-0.5" />
@@ -91,8 +115,8 @@ export function Pricing() {
               </li>
             </ul>
             <Button asChild className="mt-8 h-12">
-              <Link href="#">
-                Start building
+              <Link href={process.env.NEXT_PUBLIC_STRIPE_TEAM_LINK || "#"}>
+                Talk to the roster
                 <ArrowRight className="ml-2 w-4 h-4" />
               </Link>
             </Button>
@@ -101,7 +125,9 @@ export function Pricing() {
           <div className="p-8 rounded-lg border border-border bg-card flex flex-col">
             <div>
               <h3 className="text-lg font-medium">Enterprise</h3>
-              <p className="mt-2 text-muted-foreground text-sm">For organizations at scale</p>
+              <p className="mt-2 text-muted-foreground text-sm">
+                For organizations at scale
+              </p>
               <div className="mt-6">
                 <span className="text-4xl font-medium">Custom</span>
               </div>
@@ -109,19 +135,25 @@ export function Pricing() {
             <ul className="mt-8 space-y-3 flex-1">
               <li className="flex items-start gap-3 text-sm">
                 <Check className="w-4 h-4 shrink-0 mt-0.5" />
-                <span>Unlimited twins</span>
+                <span>
+                  <strong>Unlimited personas</strong>
+                </span>
               </li>
               <li className="flex items-start gap-3 text-sm">
                 <Check className="w-4 h-4 shrink-0 mt-0.5" />
-                <span>Unlimited conversations</span>
+                <span>Everything in Team</span>
               </li>
               <li className="flex items-start gap-3 text-sm">
                 <Check className="w-4 h-4 shrink-0 mt-0.5" />
-                <span>Custom twin development</span>
+                <span>Unlimited seats</span>
               </li>
               <li className="flex items-start gap-3 text-sm">
                 <Check className="w-4 h-4 shrink-0 mt-0.5" />
-                <span>Dedicated support</span>
+                <span>Custom persona development</span>
+              </li>
+              <li className="flex items-start gap-3 text-sm">
+                <Check className="w-4 h-4 shrink-0 mt-0.5" />
+                <span>Dedicated account manager</span>
               </li>
               <li className="flex items-start gap-3 text-sm">
                 <Check className="w-4 h-4 shrink-0 mt-0.5" />
@@ -131,8 +163,16 @@ export function Pricing() {
                 <Check className="w-4 h-4 shrink-0 mt-0.5" />
                 <span>Custom integrations</span>
               </li>
+              <li className="flex items-start gap-3 text-sm">
+                <Check className="w-4 h-4 shrink-0 mt-0.5" />
+                <span>SLA guarantees</span>
+              </li>
             </ul>
-            <Button variant="outline" asChild className="mt-8 h-12 bg-transparent">
+            <Button
+              variant="outline"
+              asChild
+              className="mt-8 h-12 bg-transparent"
+            >
               <Link href="#">Contact sales</Link>
             </Button>
           </div>
