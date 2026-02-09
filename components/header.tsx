@@ -26,7 +26,7 @@ export function Header() {
 
         <div className="hidden md:block">
           <Button asChild>
-            <Link href="#pricing">Start building</Link>
+            <Link href="#pricing">Get started</Link>
           </Button>
         </div>
 
@@ -59,7 +59,7 @@ export function Header() {
             </Link>
             <Button asChild className="mt-2">
               <Link href="#pricing" onClick={() => setMobileMenuOpen(false)}>
-                Start building
+                Get started
               </Link>
             </Button>
           </div>

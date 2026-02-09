@@ -19,7 +19,7 @@ export function Hero() {
         <div className="mt-10 flex flex-col sm:flex-row gap-4">
           <Button size="lg" asChild className="h-12 px-8 text-base">
             <Link href="#pricing">
-              Start building twins
+              Book your personas
               <ArrowRight className="ml-2 w-4 h-4" />
             </Link>
           </Button>
