@@ -44,7 +44,7 @@ Once we have 10-20 paying customers, we'll have real data to inform pricing deci
 
 #### For product and marketing teams
 
-- **Access to 50+ curated personas**
+- **Access to 30 curated personas**
 - Full roster access
 - **Unlimited conversations**
 - Team collaboration (5 seats)
@@ -75,7 +75,7 @@ Once we have 10-20 paying customers, we'll have real data to inform pricing deci
 
 **Better approach:** Limit by number of personas accessible
 
-- ✅ Crystal clear - "I get 3 perspectives vs 50 perspectives"
+- ✅ Crystal clear - "I get 3 perspectives vs 30 perspectives"
 - ✅ Predictable - "I can talk to them as much as I need"
 - ✅ Scales with value - More personas = more diverse perspectives
 

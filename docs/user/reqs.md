@@ -84,12 +84,12 @@ A service that provides pre-built, curated digital customer personas that respon
 **Requirements:**
 
 - **Starter:** Access to 3 curated personas
-- **Team:** Access to 50+ curated personas
+- **Team:** Access to 30 curated personas
 - **Enterprise:** Unlimited personas + custom persona development
 - Unlimited conversations with your accessible personas
 - Easy to understand which tier gives what
 
-**User Value:** Clear, predictable pricing. Start small (3 personas) or go big (50+ personas).
+**User Value:** Clear, predictable pricing. Start small (3 personas) or go big (30 personas).
 
 ### 4. Instant, Realistic Feedback
 
