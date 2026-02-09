@@ -86,7 +86,7 @@ export function Pricing() {
               <li className="flex items-start gap-3 text-sm">
                 <Check className="w-4 h-4 shrink-0 mt-0.5" />
                 <span>
-                  <strong>50+ curated personas</strong>
+                  <strong>30 curated personas</strong>
                 </span>
               </li>
               <li className="flex items-start gap-3 text-sm">
