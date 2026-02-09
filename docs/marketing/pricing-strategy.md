@@ -31,7 +31,7 @@ Once we have 10-20 paying customers, we'll have real data to inform pricing deci
 
 ### Starter - $50/month
 
-_For testing the waters_
+#### For testing the waters
 
 - **Access to 3 curated personas**
 - **Unlimited conversations** with those 3
@@ -42,7 +42,7 @@ _For testing the waters_
 
 ### Team - $300/month
 
-_For product and marketing teams_
+#### For product and marketing teams
 
 - **Access to 50+ curated personas**
 - Full roster access
@@ -54,7 +54,7 @@ _For product and marketing teams_
 
 ### Enterprise - Custom pricing
 
-_For organizations at scale_
+#### For organizations at scale
 
 - **Unlimited persona access**
 - Everything in Team
@@ -106,7 +106,7 @@ Need to research:
 
 ## Notes & Learnings
 
-_Add insights from customer conversations, objections, feedback here as we learn_
+(Add insights from customer conversations, objections, feedback here as we learn)
 
 ---
 

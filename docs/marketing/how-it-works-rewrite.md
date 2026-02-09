@@ -27,14 +27,14 @@ The actual user journey is:
 
 ## Key Messaging Shift
 
-### OLD (current, wrong):
+### OLD (current, wrong)
 
 - Implies user has to do complex setup work
 - Makes it feel like weeks of configuration
 - Contradicts "pre-built, ready to use" value prop
 - Adds friction and perceived effort
 
-### NEW (correct):
+### NEW (correct)
 
 - Emphasizes twins are already built
 - Shows how simple it is to start using

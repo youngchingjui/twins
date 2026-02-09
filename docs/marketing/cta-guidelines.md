@@ -47,20 +47,20 @@ A CTA should be **clear about what happens when you click it**, not just aspirat
 
 ## General CTA Principles
 
-### Match the action to the destination:
+### Match the action to the destination
 
 - **Links to pricing/payment?** → Make it clear it's a purchase ("Book," "Choose plan," "See pricing")
 - **Links to demo?** → Make it clear it's a trial ("Try it," "Ask Maya," "Test it out")
 - **Links to signup?** → Make it clear it's registration ("Sign up," "Create account")
 - **Links to waitlist?** → Make it clear it's waiting ("Join waitlist," "Get notified")
 
-### Don't oversell:
+### Don't oversell
 
 - If clicking doesn't let them talk to customers yet, don't say "Talk to your customers"
 - If there's no free trial, don't say "Try it free"
 - If setup is required, don't say "Get instant feedback"
 
-### Be specific over generic:
+### Be specific over generic
 
 - ❌ "Get started" (generic, unclear)
 - ✅ "Book your 3 personas" (specific, clear)
