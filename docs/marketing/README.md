@@ -7,6 +7,7 @@ This folder contains all marketing strategy, positioning, and messaging document
 - **[value-prop.md](./value-prop.md)** - Product positioning, messaging framework, and differentiation
 - **[pricing-strategy.md](./pricing-strategy.md)** - Pricing philosophy and tier strategy
 - **[cta-guidelines.md](./cta-guidelines.md)** - CTA principles and best practices
+- **[customer-purchase-journey.md](./customer-purchase-journey.md)** - Purchase funnel strategy and sell-before-build philosophy
 - **[how-it-works-rewrite.md](./how-it-works-rewrite.md)** - Planning doc for Issue #2 (How It Works section)
 
 ## What Goes Here
