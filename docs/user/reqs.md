@@ -192,6 +192,11 @@ These are potential future features, not current requirements:
 - **Census/polling at scale** - Running surveys across hundreds of personas (future premium feature)
 - **Analytics/reporting dashboard** - Tracking patterns across conversations
 - **API access for developers** - Team tier and above (future)
+- **Video input** - Not yet economical; revisit as model support matures
+
+## Confirmed In Scope (Not Yet Built)
+
+- **Image/vision input** - Users can share screenshots, photos, decks, and other visual content with personas. Most current models are multimodal and support this. Required for use cases like dating profile review, product screenshot feedback, and visual asset testing.
 
 ---
 
