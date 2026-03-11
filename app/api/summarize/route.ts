@@ -31,7 +31,7 @@ Synthesize these perspectives into a brief summary. Identify:
 - Where they diverge
 - The most actionable insight someone should take away
 
-Write in plain prose, no headers or bullet points. Keep it under 150 words. Don't attribute every point — synthesize, don't list.`
+Summarize the panel's reactions in under 30 words. Plain prose, no headers, no bullet points.`
 
   const response = await client.messages.create({
     model: "claude-sonnet-4-6",
